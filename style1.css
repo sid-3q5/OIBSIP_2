@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;900&display=swap');
+*{ 
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+    background-color: rgba(22,22,22);
+    user-select: none;
+}
+.oVak2-iL1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    padding: 60px 0px 30px 220px;
+}
+.oVak2-iL1 a{
+    color: rgba(209,213,219);
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    font-size: 18px;
+    list-style: none;
+}
+.oVak2-iL1 .bKJ4-23V {
+    display: flex;
+    margin-right: 250px;
+    
+}
+.oVak2-iL1 .bKJ4-23V li a{
+    padding-left: 90px;
+    display: flex;
+    font-size: 18px;
+    color: rgba(209,213,219);
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    list-style: none;
+}
+.oVak2-iL1 .bKJ4-23V li a:hover, .oVak2-iL1 a:hover ,.xLm4nRt i:hover,.xLm4nRt a:hover{
+    color: rgb(147, 147, 148);
+    transition: all 0.2s ease;
+}
+/* margin: 70px 240px 50px 240px; */
+.LmAoWtf img{
+    display: block;
+    position: relative;
+    border: solid white 3px;
+    border-radius: 200px;
+    height: 100px;
+    width: 100px;
+    opacity: 0.5;
+    margin: 70px 0 50px 44%;
+}
+.KlMQ23u{
+    display: block;
+    position: relative;
+    margin: -40px 0 50px 42%;
+    color: #4b5563;
+    font-size: 20px;
+    font-family: 'Bakbak One', cursive;
+}
+.OgKp2u ul {
+    list-style:none;
+    margin: -30px 0 0 435px;
+}
+.OgKp2u ul li{
+    display:inline-block; 
+    padding:0 45px 0 45px; 
+    position:relative;
+}
+.OgKp2u ul li a{
+    text-decoration: none;
+    color: #60A5FA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.OgKp2u ul li:not(:last-child)::after{
+    content:""; 
+    border:1px solid #e2e2e2;
+    border-width: 1px 1px 0 0;
+    position:absolute; 
+    right:-3px; 
+    top:0; 
+    height:100%;
+}
+.ok{
+    color: rgba(209,213,219);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 60px 400px 50px 400px;
+}
+.ok p{
+    margin-top: 35px;
+}
+.ok ul li{
+    margin:0 40px;
+    list-style: none;
+}
+.ok li:before {   
+    content: "";  
+    border-color: transparent #60A5FA;  
+    border-style: solid;  
+    border-width: 0.35em 0 0.35em 0.45em;  
+    display: block;  
+    left: -1em;  
+    top: 1.2em;  
+    position: relative;  
+} 
+
+
+span{
+    color: #60A5FA;
+    text-decoration: underline dotted;
+}
+footer{
+    cursor:default;
+    display: inline-block;
+    color: rgba(209,213,219);
+    align-items: center;
+    margin: 55px 0 16px 42%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+}
+footer a{
+    text-decoration: underline dotted;
+    color: rgb(125, 125, 255);
+    font-weight: 500;
+}
